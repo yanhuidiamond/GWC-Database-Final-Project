@@ -1,0 +1,47 @@
+//["Boys and Girls Club of America", "Children/Education", "National", "Yes, optional.","Must be 18+ to volunteer.","https://images.forbes.com/media/lists/companies/boys-girls-clubs-of-america_416x416.jpg"]
+//["Bill and Melinda Gates Foundation", "Miscellaneous", "International", "Yes, optional.","Volunteering not available.","http://www.gatesfoundation.org/~/media/GFO/Site/Logo-Images/icon_small_bill_melinda_gates_foundation_logo.png"]
+//["CARE", "Povery Assistance", "International", "Yes, optional.","Volunteering not available.","http://www.care.org/sites/all/themes/CARE/images/care-social-image.jpg"]
+//["Atlanta Children's Shelter", "Poverty Assistance", "Local", "Yes, optional.","Must be 18+ to volunteer.","https://www.homelessshelterdirectory.org/gallery/16098__nie.jpg"]
+//["CARE", "Povery Assistance", "International", "Yes, optional.","Volunteering not available.","http://www.care.org/sites/all/themes/CARE/images/care-social-image.jpg"]
+//["Voices for Georgia's Children", "Children/Education", "Local", "Yes, optional.","Volunteering not available.","http://georgiavoices.org/wp-content/uploads/2011/10/Voices_Logo_Color.jpg"]
+//["Project Bread", "Poverty Assistance", "National", "Yes, optional.","All ages","https://pbs.twimg.com/profile_images/539848718699098112/EqIdUaCa_400x400.jpeg"]
+//["Big Brothers Big Sisters of America", "Children/Education", "National", "Yes, optional.","18+, long term committment","https://pbs.twimg.com/profile_images/378800000007352080/3d6387daaa3ccb600e6ec5cbceb1720c_400x400.png"]
+//["", "Children/Education", "National", "Yes, optional.","18+, long term committment","https://pbs.twimg.com/profile_images/378800000007352080/3d6387daaa3ccb600e6ec5cbceb1720c_400x400.png"]
+
+charities = [
+{"name": "Boys and Girls Club of America",
+	"category":"Children/Education",
+	"scope":"National",
+	"donations":"Yes.",
+	"volunteering": "Must be 18+ to volunteer.",
+	"link":"https://images.forbes.com/media/lists/companies/boys-girls-clubs-of-america_416x416.jpg"
+},
+{"name": "Bill and Melinda Gates Foundation",
+	"category":"Miscellaneous",
+	"scope":"International",
+	"donations":"Yes.",
+	"volunteering": "Volunteering not available.",
+	"link":"http://www.gatesfoundation.org/~/media/GFO/Site/Logo-Images/"
+},
+{"name": "CARE",
+	"category":"Poverty Assistance",
+	"scope":"International",
+	"donations":"Yes.",
+	"volunteering": "Volunteering not available.",
+	"link":"http://www.gatesfoundation.org/~/media/GFO/Site/Logo-Images/icon_small_bill_melinda_gates_foundation_logo.png"
+},
+
+
+
+]
+
+
+
+
+
+
+
+
+
+
+CARTER CENTER NO VOLUNTEERS
