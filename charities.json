@@ -1,14 +1,32 @@
-//["Boys and Girls Club of America", "Children/Education", "National", "Yes, optional.","Must be 18+ to volunteer.","https://images.forbes.com/media/lists/companies/boys-girls-clubs-of-america_416x416.jpg"]
-//["Bill and Melinda Gates Foundation", "Miscellaneous", "International", "Yes, optional.","Volunteering not available.","http://www.gatesfoundation.org/~/media/GFO/Site/Logo-Images/icon_small_bill_melinda_gates_foundation_logo.png"]
-//["CARE", "Povery Assistance", "International", "Yes, optional.","Volunteering not available.","http://www.care.org/sites/all/themes/CARE/images/care-social-image.jpg"]
-//["Atlanta Children's Shelter", "Poverty Assistance", "Local", "Yes, optional.","Must be 18+ to volunteer.","https://www.homelessshelterdirectory.org/gallery/16098__nie.jpg"]
-//["CARE", "Povery Assistance", "International", "Yes, optional.","Volunteering not available.","http://www.care.org/sites/all/themes/CARE/images/care-social-image.jpg"]
-//["Voices for Georgia's Children", "Children/Education", "Local", "Yes, optional.","Volunteering not available.","http://georgiavoices.org/wp-content/uploads/2011/10/Voices_Logo_Color.jpg"]
-//["Project Bread", "Poverty Assistance", "National", "Yes, optional.","All ages","https://pbs.twimg.com/profile_images/539848718699098112/EqIdUaCa_400x400.jpeg"]
-//["Big Brothers Big Sisters of America", "Children/Education", "National", "Yes, optional.","18+, long term committment","https://pbs.twimg.com/profile_images/378800000007352080/3d6387daaa3ccb600e6ec5cbceb1720c_400x400.png"]
-//["", "Children/Education", "National", "Yes, optional.","18+, long term committment","https://pbs.twimg.com/profile_images/378800000007352080/3d6387daaa3ccb600e6ec5cbceb1720c_400x400.png"]
-
-charities = [
+charity = '[
+{"name": "Big Brothers Big Sisters of America",
+	"category":"Children/Education",
+	"scope":"National",
+	"donations":"Yes.",
+	"volunteering": "Must be 18+ to volunteer. Long term committment.",
+	//"link":"https://pbs.twimg.com/profile_images/378800000007352080/3d6387daaa3ccb600e6ec5cbceb1720c_400x400.png"
+},
+{"name": "Project Bread",
+	"category":"Poverty Assistance",
+	"scope":"National",
+	"donations":"Yes.",
+	"volunteering": "All Ages.",
+	//"link":"https://pbs.twimg.com/profile_images/539848718699098112/EqIdUaCa_400x400.jpeg"
+},
+{"name": "Voices for Georgia's Children",
+	"category":"Children/Education",
+	"scope":"Local",
+	"donations":"Yes.",
+	"volunteering": "Volunteering is not available.",
+	//"link":"http://georgiavoices.org/wp-content/uploads/2011/10/Voices_Logo_Color.jpg"
+},
+{"name": "Atlanta Children's Shelter",
+	"category":"Poverty Assistance",
+	"scope":"Local",
+	"donations":"Yes.",
+	"volunteering": "Must be 18+ to volunteer.",
+	//"link":"https://www.homelessshelterdirectory.org/gallery/16098__nie.jpg"
+},
 {"name": "Boys and Girls Club of America",
 	"category":"Children/Education",
 	"scope":"National",
@@ -21,19 +39,113 @@ charities = [
 	"scope":"International",
 	"donations":"Yes.",
 	"volunteering": "Volunteering not available.",
-	"link":"http://www.gatesfoundation.org/~/media/GFO/Site/Logo-Images/"
+	//"link":"http://www.gatesfoundation.org/~/media/GFO/Site/Logo-Images/"
 },
 {"name": "CARE",
 	"category":"Poverty Assistance",
 	"scope":"International",
 	"donations":"Yes.",
 	"volunteering": "Volunteering not available.",
-	"link":"http://www.gatesfoundation.org/~/media/GFO/Site/Logo-Images/icon_small_bill_melinda_gates_foundation_logo.png"
+	//"link":"http://www.care.org/sites/all/themes/CARE/images/care-social-image.jpg"
+},
+{"name": "Charity Wings",
+	"category":"Miscellaneous",
+	"scope":"National",
+	"donations":"Yes.",
+	"volunteering": "Volunteering available, age unknown.",
+	//"link":"https://sherwin.scene7.com/is/image/sw/charitywingsheader"
+},
+{"name": "One",
+	"category":"Poverty Assistance",
+	"scope":"International",
+	"donations":"Yes.",
+	"volunteering": "Volunteering available, age unknown.",
+	//"link":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/ONE_Campaign.svg/1024px-ONE_Campaign.svg.png"
+},
+{"name": "Magical Music for Life",
+	"category":"Miscellaneous",
+	"scope":"National",
+	"donations":"Yes.",
+	"volunteering": "Volunteering not available.",
+	//"link":"http://www.magicalmusic.org/images_site/Magical-Music-for-Life-Foundation.jpg"
+},
+{"name": "Court Appointed Special Advocates (CASA)",
+	"category":"Children/Education",
+	"scope":"National",
+	"donations":"Yes.",
+	"volunteering": "Must be 21+ to volunteer.",
+},
+{"name": "(RED)",
+	"category":"Health",
+	"scope":"International",
+	"donations":"Yes.",
+	"volunteering": "Volunteering not available.",
+},
+{"name": "The Dancer's Resource",
+	"category":"Health",
+	"scope":"National",
+	"donations":"Unknown",
+	"volunteering": "Volunteering not available.",
+},
+{"name": "Camfed",
+	"category":"Poverty Assistance",
+	"scope":"International",
+	"donations":"Yes.",
+	"volunteering": "Volunteering not available.",
+},
+{"name": "Engender Health",
+	"category":"Women",
+	"scope":"International",
+	"donations":"Yes.",
+	"volunteering": "Volunteering available.",
+},
+{"name": "Pro Mujer",
+	"category":"Women",
+	"scope":"International",
+	"donations":"Yes.",
+	"volunteering": "Volunteering not available.",
+},
+{"name": "HIV/AIDS Initiative",
+	"category":"Health",
+	"scope":"International",
+	"donations":"Yes.",
+	"volunteering": "Unknown",
+},
+{"name": "Music for Relief",
+	"category":"Arts",
+	"scope":"International",
+	"donations":"Yes.",
+	"volunteering": "Volunteering not available.",
+},
+{"name": "Inner City Arts",
+	"category":"Arts",
+	"scope":"National",
+	"donations":"Yes.",
+	"volunteering": "Unknown",
+},
+{"name": "Dizzy Feet Foundation",
+	"category":"Arts",
+	"scope":"International",
+	"donations":"Yes.",
+	"volunteering": "Volunteering not available.",
+},
+{"name": "Hungry for Music",
+	"category":"Arts",
+	"scope":"National",
+	"donations":"Yes.",
+	"volunteering": "All ages.",
+},
+{"name": "Soul Dnacers",
+	"category":"Arts",
+	"scope":"International",
+	"donations":"Yes.",
+	"volunteering": "Unknown",
 },
 
 
 
-]
+
+]'
 
 
 
@@ -44,4 +156,5 @@ charities = [
 
 
 
-CARTER CENTER NO VOLUNTEERS
+//CARTER CENTER NO VOLUNTEERS
+//Note: national indicates outside of Georgia
